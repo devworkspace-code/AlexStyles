@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6f1">
+    <meta name="description" content="Alex Styles is an independent designer creating thoughtful digital products and brands.">
+    <title>Alex Styles — Independent Designer &amp; Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-wrap container" aria-label="Main navigation">
+        <a class="wordmark" href="#home" aria-label="Alex Styles, home" data-tooltip="Return to the top of the page" data-tooltip-position="right">alex<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation" data-tooltip="Open or close the navigation menu" data-tooltip-position="left">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="primary-nav">
+          <a href="#work" data-tooltip="Browse selected projects">Work</a>
+          <a href="#about" data-tooltip="Learn about Alex and the design approach">About</a>
+          <a href="#contact" data-tooltip="Jump to the contact form">Contact</a>
+          <a class="nav-cta" href="#contact" data-tooltip="Start a conversation about your project">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-inner container">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="availability-dot"></span> Independent designer &amp; creative developer</p>
+            <h1 id="hero-title">Making the digital feel a little more <em>human.</em></h1>
+            <p class="hero-intro">I’m Alex Styles — a multidisciplinary designer partnering with good people to build thoughtful brands and digital experiences.</p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#work" data-tooltip="Jump to the selected portfolio projects" data-tooltip-position="right">Explore my work <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#contact" data-tooltip="Tell Alex what you have in mind">Have a project in mind? <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-note">
+              <span class="note-mark" aria-hidden="true">✳</span>
+              <p>Good work starts with a good conversation.<br><span>Currently booking for autumn 2026</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section section-pad" id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">A few things I’ve made</p>
+              <h2 id="work-title">Selected <em>work</em></h2>
+            </div>
+            <p class="section-aside">A selection of collaborations, big ideas<br>and the details in between.</p>
+          </div>
+          <div class="project-grid">
+            <button class="project-card reveal" type="button" data-project="fieldnotes" aria-haspopup="dialog" data-tooltip="Open project details for Fieldnotes">
+              <span class="project-image image-fieldnotes">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy">
+                <span class="project-open" aria-hidden="true">↗</span>
+                <span class="project-index">01</span>
+              </span>
+              <span class="project-meta"><span><strong>Fieldnotes</strong><span class="project-type">Brand identity · Digital</span></span><span class="project-year">2025</span></span>
+            </button>
+            <button class="project-card reveal" type="button" data-project="goodthings" aria-haspopup="dialog" data-tooltip="Open project details for Good Things Studio">
+              <span class="project-image image-goodthings">
+                <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy">
+                <span class="project-open" aria-hidden="true">↗</span>
+                <span class="project-index">02</span>
+              </span>
+              <span class="project-meta"><span><strong>Good Things Studio</strong><span class="project-type">E-commerce · Art direction</span></span><span class="project-year">2025</span></span>
+            </button>
+            <button class="project-card reveal" type="button" data-project="stilllife" aria-haspopup="dialog" data-tooltip="Open project details for Still / Life">
+              <span class="project-image image-stilllife">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy">
+                <span class="project-open" aria-hidden="true">↗</span>
+                <span class="project-index">03</span>
+              </span>
+              <span class="project-meta"><span><strong>Still / Life</strong><span class="project-type">Campaign · Photography</span></span><span class="project-year">2024</span></span>
+            </button>
+            <button class="project-card reveal" type="button" data-project="commonplace" aria-haspopup="dialog" data-tooltip="Open project details for Commonplace">
+              <span class="project-image image-commonplace">
+                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy">
+                <span class="project-open" aria-hidden="true">↗</span>
+                <span class="project-index">04</span>
+              </span>
+              <span class="project-meta"><span><strong>Commonplace</strong><span class="project-type">Product design · Website</span></span><span class="project-year">2024</span></span>
+            </button>
+          </div>
+          <p class="work-footnote reveal"><span aria-hidden="true">✳</span> Thoughtful work, made together.</p>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div class="about-heading reveal">
+            <p class="eyebrow">A little about me</p>
+            <h2 id="about-title">Curious by nature.<br><em>Intentional</em> by design.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="about-lead">I believe the best creative work feels effortless — because the thinking behind it isn’t.</p>
+            <p>For the past 8 years, I’ve helped ambitious people turn complex ideas into clear, memorable experiences. I bring strategy, design and a healthy dose of curiosity to every collaboration.</p>
+            <p>From the first sketch to the final detail, I like making things that feel considered, work beautifully and leave people a little better than I found them.</p>
+            <a class="text-link light-link" href="#contact" data-tooltip="Get in touch to talk about collaborating">A bit more about working together <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-stats reveal" aria-label="Experience and work statistics">
+            <div><strong>08<span>+</span></strong><span>years making</span></div>
+            <div><strong>32</strong><span>happy collaborations</span></div>
+            <div><strong>06</strong><span>countries reached</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Have something good in mind?</p>
+            <h2 id="contact-title">Let’s make<br>something <em>matter.</em></h2>
+            <p>Tell me a little about what you’re dreaming up. I’ll get back to you within two working days.</p>
+            <a class="contact-email" href="mailto:hello@alexstyles.design" data-tooltip="Open a new email to discuss your project">hello@alexstyles.design <span aria-hidden="true">↗</span></a>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <div class="form-row">
+              <label for="name">Your name <span aria-hidden="true">*</span>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" minlength="2" maxlength="80" required data-tooltip="Enter your name (at least 2 characters)" data-tooltip-position="top">
+              </label>
+              <label for="email">Email address <span aria-hidden="true">*</span>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@email.com" maxlength="120" required data-tooltip="Enter a valid email address for a reply" data-tooltip-position="top">
+              </label>
+            </div>
+            <label for="project">A little about your project <span aria-hidden="true">*</span>
+              <textarea id="project" name="project" rows="4" placeholder="What are you working on?" minlength="10" maxlength="2000" required data-tooltip="Share at least 10 characters about your project" data-tooltip-position="top"></textarea>
+            </label>
+            <div class="form-submit">
+              <button class="button button-dark" type="submit" data-tooltip="Check your details and prepare an email enquiry">Send an enquiry <span aria-hidden="true">↗</span></button>
+              <span class="form-note">Your email app will open to send your message.</span>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark" href="#home" aria-label="Alex Styles, back to top" data-tooltip="Return to the top of the page" data-tooltip-position="right">alex<span>.</span></a>
+        <p>Independent by choice. Collaborative by nature.</p>
+        <div class="footer-links">
+          <a href="mailto:hello@alexstyles.design" aria-label="Email Alex Styles" data-tooltip="Open a new email to Alex" data-tooltip-position="left">Email</a>
+          <a href="#home" data-tooltip="Return to the top of the page" data-tooltip-position="left">Back to top ↑</a>
+        </div>
+        <span class="copyright">© <span id="year">2026</span> Alex Styles</span>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-content">
+        <button class="dialog-close" type="button" aria-label="Close project details" data-tooltip="Close this project window" data-tooltip-position="left">×</button>
+        <p class="eyebrow" id="dialog-category"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-description" id="dialog-description"></p>
+        <div class="dialog-tags" id="dialog-tags"></div>
+        <a class="text-link dialog-contact" href="#contact" data-tooltip="Discuss a similar project with Alex">Have a project like this? <span aria-hidden="true">↗</span></a>
+      </div>
+    </dialog>
+  </body>
+</html>
